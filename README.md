@@ -7,5 +7,5 @@ A simple-but-useful password security checker written in C++
 $ cmake -B build
 $ cd build/
 $ make
-``
+```
 Then, copy the executable `checker` to `/usr/bin/`.
