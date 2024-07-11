@@ -21,7 +21,7 @@ bool checkAvailability(string s)
 }
 
 
-int checkSafety(string s)
+bool checkSafety(string s)
 {
 	/*
 	 * Check if the password is safe or almost safe.
@@ -73,7 +73,7 @@ string check(string s)
 	else {  // Safe. Show the safety score.
 		char message[9999];
 		int score = getScore(s);
-		sprintf(message, "This password is safe. Score: %d", score);
+		sprintf(message, "This password is safe. Score: %d of 100", score);
 		return message;
 	}
 }
