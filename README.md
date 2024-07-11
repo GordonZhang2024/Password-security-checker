@@ -9,3 +9,8 @@ $ cd build/
 $ make
 ```
 Then, copy the executable `checker` to `/usr/bin/passwd-checker` or create a symbolic link.
+
+## Usage
+```bash
+$ passwd-checker
+```
