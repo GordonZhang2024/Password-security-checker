@@ -12,7 +12,7 @@
 // Scores of different types of characters
 #define scoreOfLetter 5
 #define scoreOfUCaseLetter 7.5
-#define scoreOfNumber 10
+#define scoreOfNumber 15
 #define scoreOfSpecialChar 20
 
 int getScore(std::string s);
