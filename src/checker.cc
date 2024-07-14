@@ -67,9 +67,11 @@ string check(string s)
 	 */
 
 	if (!checkAvailability(s))
-		return "This password contains spaces. It is not availible.";
+		return "This password contains spaces. It is not availible.\n\
+			Perhaps you need to remove them.";
 	else if (!checkSafety(s))
-		return "This password is too short (<= 6). It is not safe.";
+		return "This password is too short (<= 6). It is not safe.\n\
+			Perhaps you need to add more characters.";
 	else {  // Safe. Show the safety score.
 		char message[9999];
 		int score = getScore(s);
